@@ -1,0 +1,23 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+background-image: url('./image/welcome.jpg');
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-size: 100% 100%;
+}
+</style>
+<meta charset="ISO-8859-1">
+<title></title>
+</head>
+<body>
+ <div align="center">
+<p><input style="width: 700px; height: 150px;"  type="button" value="Booking" onclick="window.location='booking.jsp'" ></p>
+<input style="width: 700px; height: 150px;"  type="button" value="Check Status" onclick="window.location='status.jsp'" >
+</div>
+</body>
+</html>
